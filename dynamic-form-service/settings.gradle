@@ -1,0 +1,7 @@
+rootProject.name = 'dynamic-form-service'
+include 'dynamicform-backend',
+        'dynamicform-common',
+        'dynamicform-bz1-service',
+        'dynamicform-bz1-contract',
+        'dynamicform-bz1-webapi'
+

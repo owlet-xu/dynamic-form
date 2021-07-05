@@ -1,0 +1,9 @@
+group ' com.dynamicform.springboot.seed'
+archivesBaseName = 'dynamicform-bz1-contract'
+
+apply from: "../scripts/gradle/publish.gradle"
+
+dependencies{
+    // 依赖模块
+    compile project(":dynamicform-common")
+}
